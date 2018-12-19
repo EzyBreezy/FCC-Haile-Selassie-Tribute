@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+#image {
+    width: 100%;
+    max-width: 100%;
+}
+#img-caption {
+    margin: 0;
+
+}
+#tribute-info {
+    margin: auto;
+    font-weight: 400;
+    max-width: 900px;
+    text-align: left;
+    font-size: 28px;
+}
+strong{
+    font-size: 30px;
+}
+li {
+    padding: 20px;
+}
