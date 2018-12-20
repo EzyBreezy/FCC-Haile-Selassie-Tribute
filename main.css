@@ -21,7 +21,7 @@ li {
 hr {
     display: block;
     height: 0px;
-    width: 90%;
+    max-width: 90%;
     border: 3px solid #162935;
     border-radius: 12px;
     padding-top: 0;
@@ -37,10 +37,13 @@ ul {
     margin-top: 0;
     margin-bottom: 10px;
     padding-top: 10px;
+    font-size: 50px;
+    text-shadow: 0px 5px 30px black;
 }
 
 #main {
-    width: 1360px;
+    max-width: 1360px;
+    min-width: 1090px;
     margin: 0 auto;
     text-align: center;
     background: #2c3f48;
@@ -68,6 +71,7 @@ ul {
     margin: auto;
     font-weight: 400;
     max-width: 1200px;
+    min-width: 1090px;
     color: #ccc;
 }
 #tribute-info::after {
@@ -104,14 +108,20 @@ ul {
 
 .left {
     left: 0;
+    box-shadow: -8px 6px 30px 8px #26363e;
 }
 
 .right {
-    left: 53%;
+    left: 52%;
+    box-shadow: 8px 6px 30px 8px #26363e;
 }
 .right::after {
-    left: -55px;
+    left: -42px;
 }
 .footer-title {
     color: #ccc
 }
+.tribute-info-title {
+    text-shadow: 0px 3px 30px black;
+}
+
